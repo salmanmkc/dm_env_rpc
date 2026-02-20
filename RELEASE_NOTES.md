@@ -1,5 +1,10 @@
 # Release Notes
 
+## [1.1.7]
+
+*   Support for NumPy 2.x.
+*   Various bug fixes.
+
 ## [1.1.6]
 
 *   New `AsyncConnection` class that allows users to make asynchronous requests
@@ -55,8 +60,8 @@ Users are advised to either revert to an older version, or re-build their
 environments to use the newer, multi-dimensional `TensorSpec.Value` fields.
 
 *   Removed scalar `TensorSpec.Value` fields, which were marked as deprecated in
-    [v1.0.1](#101). These have been superseded by array variants, which can be
-    used for scalar bounds by creating a single element array.
+    v1.0.1. These have been superseded by array variants, which can be used for
+    scalar bounds by creating a single element array.
 *   Removed deprecated Property request/responses. These are now provided
     through the optional Property extension.
 *   Refactored `Connection` to expose message packing utilities.

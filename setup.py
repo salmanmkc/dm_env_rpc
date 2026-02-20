@@ -120,7 +120,7 @@ setup(
         'immutabledict',
         'googleapis-common-protos',
         'grpcio',
-        'numpy<2.0',
+        'numpy',
         'protobuf>=3.8',
     ],
     python_requires='>=3.8',
